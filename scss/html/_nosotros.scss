@@ -1,0 +1,45 @@
+/*nosotros style*/
+.nos__contenedor {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/3965543/pexels-photo-3965543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  .nos__content {
+    background-color: rgba(0, 0, 0, 0.5); // Fondo semitransparente
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    h1 {
+      text-shadow: 2px 2px 3px $nosotros;
+      font-family: raleway;
+    }
+    p {
+      font-family: lato;
+      font-size: 20px;
+      text-shadow: 3px 3px 3px $nosotros;
+    }
+  }
+}
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 1024px) {
+  /*nosotros style desktop*/
+  .nos__contenedor {
+    display: flex;
+    margin-top: 110px;
+    .nos__content {
+      background-color: rgba(0, 0, 0, 0.7);
+      h1 {
+        text-align: start;
+        font-size: 60px;
+      }
+      p {
+        font-size: 25px;
+      }
+    }
+  }
+}

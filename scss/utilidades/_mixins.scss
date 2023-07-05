@@ -1,0 +1,16 @@
+@mixin boxshadow {
+  box-shadow: 10px 10px 20px 6px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 10px 10px 20px 6px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 10px 10px 20px 6px rgba(0, 0, 0, 0.29);
+}
+
+@mixin neo($radio, $eje) {
+  border-radius: $radio;
+  background: #ffffff;
+  box-shadow: $eje $eje ($eje * 2) #d9d9d9, (-$eje) (-$eje) ($eje * 2) #ffffff;
+}
+@mixin neohover($radio, $eje) {
+  border-radius: $radio;
+  background: #ffffff;
+  box-shadow: (-$eje) (-$eje) ($eje * 2) #d9d9d9, $eje $eje ($eje * 2) #ffffff;
+}

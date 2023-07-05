@@ -1,0 +1,19 @@
+/*galeria desktop boostrap se adapta a todos los dispositivos */
+
+.carrusel {
+  background-color: $secundario;
+}
+@media screen and (min-width: 1024px) {
+  .carrusel {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .carrusel-gal,
+  .imagen1,
+  .imagen2,
+  .imagen3 {
+    width: 50%;
+    height: auto;
+  }
+}

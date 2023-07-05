@@ -1,0 +1,15 @@
+/*hoja de estilo para smartphone*/
+/*reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//import
+@import "html/index";
+@import "html/fw2023";
+@import "html/galeria";
+@import "html/encontranos";
+@import "html/nosotros";
+@import "utilidades/variables";
